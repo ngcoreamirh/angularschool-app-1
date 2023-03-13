@@ -13,7 +13,7 @@ export class CalculatePipe implements PipeTransform {
 
     let res;
     args.forEach(arg => {
-      if(arg == 'sqrt') {
+      if (arg == 'sqrt') {
         res = Math.sqrt(value);
       } else if (arg == 'abs') {
         res = Math.abs(value);
@@ -22,7 +22,7 @@ export class CalculatePipe implements PipeTransform {
       }
     });
     return res;
-    
+
   }
 
 }

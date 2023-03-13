@@ -4,9 +4,9 @@ import { Directive, ElementRef, HostListener, Renderer2 } from '@angular/core';
   selector: '[appMarkText]'
 })
 export class MarkTextDirective {
-  
+
   constructor(private Element: ElementRef, private renderer: Renderer2) {
-    
+
     renderer.setStyle(Element.nativeElement, 'background-color', 'yellow');
     renderer.setStyle(Element.nativeElement, 'color', 'black');
     renderer.setStyle(Element.nativeElement, 'padding', '3px 7px');
