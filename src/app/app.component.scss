@@ -23,13 +23,13 @@ header {
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        transition: .2s ease;
+        transition: .6s ease;
     }
 
     &:hover {
         .logo {
             border: none;
-            filter: drop-shadow(2px 2px 8px $White);
+            filter: drop-shadow(1px 1px 30px $White);
         }
     }
 
